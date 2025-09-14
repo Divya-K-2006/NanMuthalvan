@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divya's Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url("https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1740&q=80") 
+                  no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+    }
+    nav {
+      background: rgba(0,0,0,0.8);
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+      color: #FFD700;
+      text-shadow: 1px 1px 4px black;
+    }
+    .nav-links {
+      display: flex;
+      gap: 20px;
+    }
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+    .nav-links a:hover {
+      color: #00f2fe;
+    }
+    .hero {
+      text-align: center;
+      margin-top: 80px;
+      padding: 40px;
+      background: rgba(0,0,0,0.5);
+      border-radius: 15px;
+      display: inline-block;
+    }
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 15px;
+      color: #FFD700;
+      text-shadow: 2px 2px 5px black;
+    }
+    .hero p {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .headline-section {
+      text-align: center;
+      margin: 50px 0 20px;
+    }
+    .headline-section h2 {
+      font-size: 30px;
+      color: #00e5ff;
+      text-shadow: 1px 1px 4px black;
+    }
+    .cards {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin: 30px auto;
+      flex-wrap: wrap;
+      max-width: 1000px;
+    }
+    .card {
+      background: rgba(255,255,255,0.1);
+      padding: 20px;
+      border-radius: 12px;
+      width: 250px;
+      text-align: center;
+      backdrop-filter: blur(8px);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+      background: rgba(255,255,255,0.2);
+    }
+    .card h3 {
+      color: #00e5ff;
+      margin-bottom: 10px;
+    }
+    .logout {
+      margin-top: 40px;
+      text-align: center;
+    }
+    .logout a {
+      background: #ff3333;
+      padding: 12px 25px;
+      border-radius: 8px;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .logout a:hover {
+      background: #cc0000;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">MyPortfolio</div>
+    <div class="nav-links">
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+     
+      <a href="skills.html">Skills</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>Welcome to MyPortfolio</h1>
+    <p>Hello, I am <b>Divya</b>, pursuing <b>BCA</b>. <br>
+       This is my personal portfolio home page.</p>
+  </div>
+
+  <!-- Headline Section -->
+  <div class="headline-section">
+    <h2>🏠 Home Page Highlights</h2>
+  </div>
+
+  <!-- Cards -->
+  <div class="cards">
+    <div class="card">
+      <h3>📘 Learning</h3>
+      <p>Focused on Java Full Stack, Web Development & SQL.</p>
+    </div>
+    <div class="card">
+      <h3>🎯 Goal</h3>
+      <p>To become a skilled IT professional in software development.</p>
+    </div>
+    <div class="card">
+      <h3>🚀 Project</h3>
+      <p>Working on my portfolio to showcase skills & knowledge.</p>
+    </div>
+  </div>
+
+  <!-- Logout Button -->
+  <div class="logout">
+    <a href="login.html">Logout</a>
+  </div>
+</body>
+</html>
